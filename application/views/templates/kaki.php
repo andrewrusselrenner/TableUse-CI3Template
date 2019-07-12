@@ -37,7 +37,7 @@
     // Inisialisasi plugin JqueryDataTable
     /*
     $(document).ready(function() {
-        $('#tabelMahasiswa').DataTable({
+        $('.table').DataTable({
             "language": {
                 "url": "<?= jsURL(); ?>indonesian-gaul.json"
             }
