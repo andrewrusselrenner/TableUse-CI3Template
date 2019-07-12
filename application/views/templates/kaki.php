@@ -35,7 +35,6 @@
     ?>
     <script>
     // Inisialisasi plugin JqueryDataTable
-    /*
     $(document).ready(function() {
         $('.table').DataTable({
             "language": {
@@ -43,7 +42,6 @@
             }
         });
     });
-    */
 
     // Atur variabel global yang bakal dipake disemua fungsi 
     // di javascript bair gak cape ngetik
