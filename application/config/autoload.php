@@ -60,7 +60,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('session' => 'sesi');
 */
-$autoload['libraries'] = array('session');
+$autoload['libraries'] = array('database','session');
 
 /*
 | -------------------------------------------------------------------
@@ -116,9 +116,8 @@ $autoload['config'] = array();
 |
 |	$autoload['language'] = array('lang1', 'lang2');
 |
-| CATATAN: Jangan masukkin bagian "_lang" dari berkasmu. Contoh:
-| NOTE: Do not include the "_lang" part of your file.  For example
-| "jawa_lang.php" akan direferensikan sebagai array('jawa');
+| CATATAN: Jangan masukkin bagian "_lang" dari berkasmu.
+| Contoh:"jawa_lang.php" akan direferensikan sebagai array('jawa');
 | Jadi jawa aja _lang nya gak usah.
 |
 */
